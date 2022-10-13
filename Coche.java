@@ -3,12 +3,10 @@ public class Coche {
         coche micoche = new coche();
         micoche.Aumentar();
         micoche.Aumentar();
-        micoche.Aumentar();
-        micoche.Aumentar();
         System.out.println(micoche.puertas);
     }
     static class coche{
-        public int puertas = 0;
+        public int puertas = 3;
 
         public void Aumentar(){
             this.puertas++;
